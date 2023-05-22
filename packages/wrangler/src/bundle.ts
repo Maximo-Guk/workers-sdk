@@ -195,6 +195,8 @@ export async function bundleWorker(
 		additionalModules = [],
 	} = options;
 
+	console.log(watch);
+
 	// We create a temporary directory for any oneoff files we
 	// need to create. This is separate from the main build
 	// directory (`destination`).

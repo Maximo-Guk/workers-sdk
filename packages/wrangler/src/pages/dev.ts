@@ -298,7 +298,7 @@ export const Handler = async ({
 						nodejsCompat,
 						local: true,
 						sourcemap: true,
-						watch: true,
+						watch: false,
 						onEnd: () => scriptReadyResolve(),
 					});
 				} catch (e: unknown) {
